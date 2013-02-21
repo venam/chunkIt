@@ -29,7 +29,6 @@ vector <vector <std::string> > chunkIt( vector <std::string> users, int nb)
                     temp_vect.push_back(users[i]);
             }
             spliters.push_back(temp_vect);
-            cout<<"last:"<<last<<"\n";
             last+=avg;
         }
         return spliters;
